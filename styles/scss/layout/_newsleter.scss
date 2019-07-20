@@ -1,0 +1,30 @@
+.newslater {
+  background-image: linear-gradient(270deg, rgba(255,255,255,0.05) 0%, rgba(0,0,0,0.05) 1%, rgba(0,0,0,0.45) 100%), url("../../img/backgrounds/newslater.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #ffffff;
+  padding: 95px 0;
+}
+.site-form {
+  margin-top: 45px;
+  @include display-flex;
+  @include justify-content(center);
+  input {
+    font-family: 'Roboto Slab', serif;
+    width: 350px;
+    background: rgba(214, 214, 214, 0.44);
+    border: 1px solid #c9c9c9;
+    border-radius: 28px;
+    padding-right: 40px;
+    padding-left: 30px;
+    color: #ffffff;
+  }
+  button {
+    margin-left: -40px;
+    &:hover {
+      background-color: #b3b1ae;
+      border: 1px solid #b3b1ae;
+    }
+  }
+}

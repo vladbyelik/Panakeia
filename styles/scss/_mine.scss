@@ -1,0 +1,29 @@
+body {
+  font-family: 'Roboto Slab', serif;
+}
+* {
+  outline: 0;
+  outline-offset: 0;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.button-type-one {
+  border-radius: 28px;
+  padding: 15px 40px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  background: #fff;
+  color: #612316;
+  font-size: 18px;
+  transition: 0.3s;
+  &:hover {
+    color: #ffffff;
+    background:none;
+    border: 1px solid #ffffff;
+  }
+}

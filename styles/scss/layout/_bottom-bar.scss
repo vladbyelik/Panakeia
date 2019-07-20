@@ -1,0 +1,18 @@
+.bottom-bar {
+  padding: 95px 0;
+  background-color: #d75d0e;
+  .container {
+    @include display-flex;
+    @include justify-content(space-around);
+  }
+}
+.bottom-list {
+  li {
+    text-align: center;
+    a {
+      line-height: 30px;
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+}
